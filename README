@@ -1,1 +1,7 @@
-This file was created by JetBrains RubyMine 4.5.4 for binding GitHub repository
+Cloud Scrubber
+
+Ruby service platform for automatically scrubbing personally identifiable information (PII) or other sensitive information before sending
+the data off to a cloud provider (Amazon, etc.) for processing. Handles "unscrubbing" the data when it comes back.
+
+Goal is to provide connectivity to a variety of persistence mechanisms (MongoDB, file system, other databases, memory, etc.) and to support
+input from a wide variety of sources (HTTP REST API, RabbitMQ/AMQP, dRb (distributed ruby), named pipes, stdin, etc.).
